@@ -1,0 +1,2 @@
+rootProject.name='WizPandaDemo'
+include ':app'

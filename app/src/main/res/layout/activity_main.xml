@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    tools:context=".MainActivity">
+
+    <!--main logo can be replaced -->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:src="@drawable/wiz_panda_logo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <Button
+            android:id="@+id/btnImageDemo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/bg_btn"
+            android:padding="15dp"
+            android:text="@string/btn_image_demo"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:clickable="true"
+            android:onClick="OpenImageDemo"/>
+
+        <Button
+            android:id="@+id/btnVideoDemo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/bg_btn"
+            android:padding="15dp"
+            android:text="@string/btn_video_demo"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:clickable="true"
+            android:onClick="openVideoDemo"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
